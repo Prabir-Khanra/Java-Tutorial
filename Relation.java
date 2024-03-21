@@ -6,13 +6,14 @@ class Dad {
 	}
 }
 
-class Arun extends Dad {
+class Mom {
+	String hair_color="black";
+	String skin_color="fair";
 	String education = "H.S Fail";
 }
 
-class Katrina extends Dad {
+class Katrina extends Dad, Mom {
 	String proffession = "Actress";
-
 }
 
 public class Relation {
