@@ -18,8 +18,14 @@ public class Bank {
 			}
 
 
+		}catch(ArithmeticException e) {
+			System.out.println(e.getMessage());
+		}catch(NullPointerException e) {
+			System.out.println(e.getMessage());
 		}catch(Exception e) {
 			System.out.println(e.getMessage());
+		}finally {
+			
 		}
 
 	}
