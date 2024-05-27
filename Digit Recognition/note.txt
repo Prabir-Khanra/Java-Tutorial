@@ -1,0 +1,42 @@
+tensorflow:===================================
+TensorFlow is a popular framework of machine learning and deep learning. It is a free and open-source library which is released on 9 November 2015 and developed by Google Brain Team. It is entirely based on Python programming language and use for numerical computation and data flow, which makes machine learning faster and easier.
+
+TensorFlow can train and run the deep neural networks for image recognition, handwritten digit classification, recurrent neural network, word embedding, natural language processing, video detection, and many more. TensorFlow is run on multiple CPUs or GPUs and also mobile operating systems.
+
+numpy: =======================================
+NumPy stands for numeric python which is a python package for the computation and processing of the multidimensional and single dimensional array elements.
+
+It is an extension module of Python which is mostly written in C. It provides various functions which are capable of performing the numeric computations with a high speed.
+
+NumPy provides various powerful data structures, implementing multi-dimensional arrays and matrices. These data structures are used for the optimal computations regarding arrays and matrices.
+
+
+pandas: ======================================
+The name of Pandas is gotten from the word Board Information, and that implies an Econometrics from Multi-faceted information. It was created in 2008 by Wes McKinney and is used for data analysis in Python.
+
+Processing, such as restructuring, cleaning, merging, etc., is necessary for data analysis. Numpy, Scipy, Cython, and Panda are just a few of the fast data processing tools available. Yet, we incline toward Pandas since working with Pandas is quick, basic and more expressive than different apparatuses.
+
+Since Pandas is built on top of the Numpy bundle, it is expected that Numpy will work with Pandas.
+
+Before Pandas, Python was able for information planning, however it just offered restricted help for information investigation. As a result, Pandas entered the picture and enhanced data analysis capabilities. Regardless of the source of the data, it can carry out the five crucial steps that are necessary for processing and analyzing it: load, manipulate, prepare, model, and analyze.
+
+matplotlib: ==================================
+Matplotlib is a Python library which is defined as a multi-platform data visualization library built on Numpy array. It can be used in python scripts, shell, web application, and other graphical user interface toolkit.
+
+opencv: ======================================
+OpenCV is a Python open-source library for computer vision in artificial intelligence, machine learning, facial recognition, etc.
+
+The term "computer vision" (abbreviated as "CV") in OpenCV refers to a branch of research that enables computers to comprehend the content of digital images like pictures and movies.
+
+To comprehend the content of the images is the goal of computer vision. It takes the description of the images-which may be of an object, a text description, a three-dimensional model, etc.-and extracts it from the images. Computer vision, for instance, can help cars by enabling them to recognize various roadside items, such as pedestrians, traffic signs, and traffic lights, and then respond appropriately.
+
+
+pip install opencv-python
+
+pip install pandas
+
+pip install numpy
+
+pip install matplotlib
+
+pip install tensorflow
