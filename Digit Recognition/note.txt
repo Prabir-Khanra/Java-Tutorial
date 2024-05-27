@@ -31,6 +31,21 @@ The term "computer vision" (abbreviated as "CV") in OpenCV refers to a branch of
 To comprehend the content of the images is the goal of computer vision. It takes the description of the images-which may be of an object, a text description, a three-dimensional model, etc.-and extracts it from the images. Computer vision, for instance, can help cars by enabling them to recognize various roadside items, such as pedestrians, traffic signs, and traffic lights, and then respond appropriately.
 
 
+process: ====================================================
+At first, we get the dataset and store it in a variable and named it as data. So basically we get the dataset from the tensorflow itself.
+
+After that, what we have to do is, we need to split our data to test and train set.
+
+then we normalized the x_train and x_test.
+
+Then we defined model and add input layers, hidden layers, output layers.
+
+Then we compiled our model and started to train our model. That's why we passed x_train and y_train. Then we specify to epoch for 3 times for better accuracy and prediction.
+
+
+Then we used for loops to read image and predict them. Here we used openCv library for read image. Here we programmed only to read .png image. Then we created numpy array to pass image into it. In this place we inverted our image so that model would not get confused. Then we hold our prediction value and printed it. Then we used matplotlib for visualization purpose (show the current image). Now our prject is ready and working well.
+
+
 pip install opencv-python
 
 pip install pandas
